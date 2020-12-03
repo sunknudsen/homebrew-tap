@@ -10,7 +10,7 @@ cask "borg-wrapper" do
 
   auto_updates true
   depends_on macos: ">= :mojave"
-  depends_on formula: "borgbackup/tap/borgbackup-llfuse"
+  depends_on formula: "borgbackup/tap/borgbackup-fuse"
 
   app "Borg Wrapper.app"
 
