@@ -1,6 +1,6 @@
 cask "borg-wrapper" do
-  version "0.0.1"
-  sha256 "0cd8baac2ddf2eba760931281321c5a8fcfaae5c3a4430520a5ba88fce3eb7dd"
+  version "0.0.2"
+  sha256 "e75ae3a22745ee51c082879f0bcb9886e3d73af40dbd0fbeba8cb54c93dacc8e"
 
   url "https://github.com/sunknudsen/borg-wrapper/releases/download/v#{version}/borg-wrapper-#{version}.dmg"
   appcast "https://github.com/sunknudsen/borg-wrapper/releases.atom"
