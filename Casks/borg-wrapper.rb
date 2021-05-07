@@ -5,7 +5,7 @@ cask "borg-wrapper" do
   url "https://github.com/sunknudsen/borg-wrapper/releases/download/v#{version}/borg-wrapper-#{version}.dmg"
   appcast "https://github.com/sunknudsen/borg-wrapper/releases.atom"
   name "Borg Wrapper"
-  desc "Borg Wrapper is a lightweight wrapper used the run (or schedule) Borg backups securely on macOS."
+  desc "Borg Wrapper is a lightweight wrapper used to run (or schedule) Borg backups securely on macOS."
   homepage "https://github.com/sunknudsen/borg-wrapper"
 
   auto_updates true
