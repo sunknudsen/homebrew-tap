@@ -6,7 +6,6 @@ class Wakeful < Formula
   license "MIT"
 
   depends_on macos: :sequoia
-  depends_on xcode: "15.0"
 
   def install
     system "swift", "build", "--configuration", "release", "--disable-sandbox"
